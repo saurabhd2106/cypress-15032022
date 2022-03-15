@@ -1,0 +1,16 @@
+{
+    "ignoreTestFiles": [
+        "**/1-**/**",
+        "**/2-**/**"
+    ],
+    "viewportHeight": 1080,
+    "viewportWidth": 1920,
+    "baseUrl": "http://ec2-54-242-117-151.compute-1.amazonaws.com:3000",
+    "video": true,
+    "screenshotOnRunFailure": true,
+    "capture": "runner",
+    "testFiles": "**/*.{feature,features,js}",
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/integration/bddTesting/**/"
+    }
+}
